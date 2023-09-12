@@ -6,7 +6,7 @@ view: uproc_dep {
     sql: ${TABLE}.session ;;
   }
   dimension: uprocs {
-    hidden: yes
+   hidden: yes
     sql: ${TABLE}.uprocs ;;
   }
   measure: count {
@@ -29,6 +29,7 @@ view: uproc_dep__uprocs {
     hidden: yes
     sql: uproc_input ;;
   }
+
 }
 
 view: uproc_dep__uprocs__uproc_input {
@@ -37,4 +38,5 @@ view: uproc_dep__uprocs__uproc_input {
     type: string
     sql: uproc_dep__uprocs__uproc_input ;;
   }
+
 }

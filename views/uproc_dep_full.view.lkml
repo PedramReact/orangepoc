@@ -11,7 +11,14 @@ view: uproc_dep_full {
   }
   dimension: feature_team {
     type: string
-    sql: IFNULL(${TABLE}.feature_team,'NA')  ;;
+    sql: case IFNULL(${TABLE}.feature_team,'NA')
+    when 'Team A' then 'Team A'
+    when 'Team B' then 'Team B'
+    when 'Team C' then 'Team C'
+    when 'Team D' then 'Team D'
+    else 'NA'
+    end;;
+
   }
   dimension: session {
     type: string

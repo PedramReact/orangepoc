@@ -13,12 +13,12 @@ persist_with: orange-dashboard-looker_default_datagroup
 
 explore: uproc_dep_full {
   join: uproc_dep_full__uprocs {
-    view_label: "Uproc Dep Full: Uprocs"
+    view_label: " Uprocs"
     sql: LEFT JOIN UNNEST(${uproc_dep_full.uprocs}) as uproc_dep_full__uprocs ;;
     relationship: one_to_many
   }
   join: uproc_dep_full__uprocs__uproc_input {
-    view_label: "Uproc Dep Full: Uprocs Uproc Input"
+    view_label: "Uproc Input"
     sql: LEFT JOIN UNNEST(${uproc_dep_full__uprocs.uproc_input}) as uproc_dep_full__uprocs__uproc_input ;;
     relationship: one_to_many
   }

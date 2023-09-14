@@ -7,15 +7,15 @@ view: uproc_dep_full {
 
   dimension: domaine {
     type: string
-    sql: ${TABLE}.domaine ;;
+    sql: IFNULL(${TABLE}.domaine,'NA') ;;
   }
   dimension: feature_team {
     type: string
-    sql: ${TABLE}.feature_team ;;
+    sql: IFNULL(${TABLE}.feature_team,'NA')  ;;
   }
   dimension: session {
     type: string
-    sql: ${TABLE}.session ;;
+    sql: IFNULL(${TABLE}.session,'NA') ;;
   }
   dimension_group: session_end {
     type: time
@@ -29,7 +29,13 @@ view: uproc_dep_full {
   }
   dimension: statut {
     type: string
-    sql: ${TABLE}.statut ;;
+    sql: case IFNULL(${TABLE}.statut,'NA')
+      when 'Dev' then 'Dev'
+      when 'Prod' then 'Prod'
+      when 'Qualif' then 'Qualif'
+      else 'NA'
+      end;;
+
   }
   dimension: uprocs {
     hidden: yes

@@ -1,6 +1,8 @@
 # Un-hide and use this explore, or copy the joins into another explore, to get all the fully nested relationships from this view
 
 view: uproc_dep_full {
+  view_label: "uproc_dep"
+  label: "uproc_dep"
   sql_table_name: `orange-looker.REF_TRD.UPROC_DEP_FULL` ;;
 
   dimension: domaine {
@@ -36,29 +38,7 @@ view: uproc_dep_full {
   measure: count {
     type: count
   }
-}
 
-view: uproc_dep_full__uprocs {
+  #New Dev
 
-  dimension: uproc {
-    type: string
-    sql: uproc ;;
-  }
-  dimension: uproc_dep_full__uprocs {
-    type: string
-    hidden: yes
-    sql: uproc_dep_full__uprocs ;;
-  }
-  dimension: uproc_input {
-    hidden: yes
-    sql: uproc_input ;;
-  }
-}
-
-view: uproc_dep_full__uprocs__uproc_input {
-
-  dimension: uproc_dep_full__uprocs__uproc_input {
-    type: string
-    sql: uproc_dep_full__uprocs__uproc_input ;;
-  }
 }

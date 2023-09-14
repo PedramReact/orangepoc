@@ -10,18 +10,7 @@ datagroup: orange-dashboard-looker_default_datagroup {
 
 persist_with: orange-dashboard-looker_default_datagroup
 
-explore: uproc_dep {
-    join: uproc_dep__uprocs {
-      view_label: "Uproc Dep: Uprocs"
-      sql: LEFT JOIN UNNEST(${uproc_dep.uprocs}) as uproc_dep__uprocs ;;
-      relationship: one_to_many
-    }
-    join: uproc_dep__uprocs__uproc_input {
-      view_label: "Uproc Dep: Uprocs Uproc Input"
-      sql: LEFT JOIN UNNEST(${uproc_dep__uprocs.uproc_input}) as uproc_dep__uprocs__uproc_input ;;
-      relationship: one_to_many
-    }
-}
+
 explore: uproc_dep_full {
   join: uproc_dep_full__uprocs {
     view_label: "Uproc Dep Full: Uprocs"

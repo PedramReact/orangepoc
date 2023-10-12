@@ -27,5 +27,5 @@ visualization: {
 visualization: {
   id: "Vis_test_Pedram"
   label: "Vis_test_Pedram"
-  url: "https://storage.cloud.google.com/org_viz_js/js_looker/NewGraph.js"
+  url: "https://storage.cloud.google.com/org_viz_js/js_looker/test_pedram.js"
 }

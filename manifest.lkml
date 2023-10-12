@@ -30,5 +30,5 @@ visualization: {
 visualization: {
   id: "Vis_test_Pedram"
   label: "Vis_test_Pedram"
-  url: "https://raw.githubusercontent.com/PedramReact/TestOrgVis/main/NewGraph.js"
+  url: "https://marketplace-api.looker.com/viz-dist/liquid_fill_gauge.js"
 }

@@ -13,14 +13,6 @@ constant: VIS_ID {
   export:  override_optional
 }
 
-
-
-#visualization: {
-#  id: "@{VIS_ID}"
-#  url: "https://marketplace-api.looker.com/viz-dist/liquid_fill_gauge.js"
-#  label: "@{VIS_LABEL}"
-#}
-
 visualization: {
   id: "@{VIS_ID}"
   label: "@{VIS_LABEL}"
@@ -36,4 +28,5 @@ visualization: {
   id: "Vis_test_Pedram"
   label: "Vis_test_Pedram"
   url: "https://github.com/PedramReact/NewTestOrangeViz/blob/main/test_pedram.js"
+  sri_hash: "74b859bd3bba81c05a416ed95ee1874e64fd8da2"
 }

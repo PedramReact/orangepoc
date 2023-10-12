@@ -27,6 +27,6 @@ visualization: {
 visualization: {
   id: "Vis_test_Pedram"
   label: "Vis_test_Pedram"
-  url: "https://github.com/PedramReact/NewTestOrangeViz/blob/main/test_pedram.js"
+  url: "https://raw.githubusercontent.com/PedramReact/NewTestOrgViz/main/NewGraph.js"
   sri_hash: "74b859bd3bba81c05a416ed95ee1874e64fd8da2"
 }

@@ -28,5 +28,5 @@ visualization: {
   id: "Vis_test_Pedram"
   label: "Vis_test_Pedram"
   url: "https://raw.githubusercontent.com/PedramReact/NewTestOrgViz/main/NewGraph.js"
-  sri_hash: "74b859bd3bba81c05a416ed95ee1874e64fd8da2"
+  sri_hash: "81806901a85b896b10fd9aa31d66e4a997b14d57"
 }

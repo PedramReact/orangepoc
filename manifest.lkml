@@ -28,7 +28,12 @@ visualization: {
   dependencies: ["https://code.jquery.com/jquery-2.2.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js", "https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"]
   }
 visualization: {
+  id: "Vis_looker"
+  label: "Vis_looker"
+  url: "https://marketplace-api.looker.com/viz-dist/liquid_fill_gauge.js"
+}
+visualization: {
   id: "Vis_test_Pedram"
   label: "Vis_test_Pedram"
-  url: "https://github.com/PedramReact/TestOrgVis/blob/main/NewGraph.js"
+  url: "https://github.com/PedramReact/NewTestOrangeViz/blob/main/test_pedram.js"
 }

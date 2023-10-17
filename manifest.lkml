@@ -9,7 +9,7 @@ constant: VIS_LABEL {
 
 
 constant: VIS_ID {
-  value: "Orange-Vis-Looker000"
+  value: "Orange-Vis-Looker00000000000000000000000000"
   export:  override_optional
 }
 

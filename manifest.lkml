@@ -2,7 +2,7 @@
 project_name: "orange-dashboard-looker"
 
 constant: VIS_LABEL {
-  value: "Orange-Vis-Looker"
+  value: "Orange-Vis-Looker_Lookml"
   export: override_optional
 }
 

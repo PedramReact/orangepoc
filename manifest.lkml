@@ -16,7 +16,7 @@ constant: VIS_ID {
 }
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://storage.cloud.google.com/org_viz_js/js_looker/OrgCustGraphVisV4.js"
+  url: "https://storage.cloud.google.com/org_viz_js/js_looker/OrgCustGraphVisV5.js"
   # sri_hash: "59d48907f248007aff0407562b86514ec095b77b"
   label: "@{VIS_LABEL}"
 

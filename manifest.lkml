@@ -16,7 +16,7 @@ constant: VIS_ID {
 }
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://storage.cloud.google.com/org_viz_js/js_looker/OrangeCustVisFinal.js"
+  url: "https://storage.googleapis.com/data_accidents2019_2020_2021_looker/OrangeCustomVisualcopy.js"
   # sri_hash: "59d48907f248007aff0407562b86514ec095b77b"
   label: "@{VIS_LABEL}"
 

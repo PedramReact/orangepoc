@@ -16,7 +16,7 @@ constant: VIS_ID {
 }
 visualization: {
   id: "@{VIS_ID}"
-  url: "https://storage.googleapis.com/data_accidents2019_2020_2021_looker/3110OrgFinalCustVisV9.js"
+  url: "https://storage.googleapis.com/data_accidents2019_2020_2021_looker/3110OrgFinalCustVisV8.js"
   # sri_hash: "59d48907f248007aff0407562b86514ec095b77b"
   label: "@{VIS_LABEL}"
 
